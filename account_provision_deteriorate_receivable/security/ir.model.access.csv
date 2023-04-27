@@ -1,0 +1,2 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+provision_deteriorate_receivable_wizard,provision_deteriorate_receivable_wizard,model_account_provision_deteriorate_receivable,base.group_user,1,1,1,1

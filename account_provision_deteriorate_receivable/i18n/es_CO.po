@@ -1,0 +1,374 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* account_provision_deteriorate_receivable
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 13.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-04-20 14:37+0000\n"
+"PO-Revision-Date: 2023-04-20 09:49-0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es_CO\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"X-Generator: Poedit 3.2.2\n"
+
+#. module: account_provision_deteriorate_receivable
+#: code:addons/account_provision_deteriorate_receivable/wizard/account_provision_deteriorate_receivable.py:0
+#: model:ir.model.fields.selection,name:account_provision_deteriorate_receivable.selection__account_provision_deteriorate_receivable__execute_type_niif__all
+#, python-format
+msgid "100% CXC"
+msgstr ""
+
+#. module: account_provision_deteriorate_receivable
+#: code:addons/account_provision_deteriorate_receivable/wizard/account_provision_deteriorate_receivable.py:0
+#: model:ir.model.fields.selection,name:account_provision_deteriorate_receivable.selection__account_provision_deteriorate_receivable__execute_type__all
+#, python-format
+msgid "All"
+msgstr "Todos"
+
+#. module: account_provision_deteriorate_receivable
+#: model:ir.model.fields,field_description:account_provision_deteriorate_receivable.field_account_move__book_value_niif
+msgid "Book value NIIF"
+msgstr "Valor en libros NIIF"
+
+#. module: account_provision_deteriorate_receivable
+#: model:ir.model.fields,field_description:account_provision_deteriorate_receivable.field_account_move__book_value_fiscal
+msgid "Book value fiscal"
+msgstr "Valor en libros fiscal"
+
+#. module: account_provision_deteriorate_receivable
+#: model:ir.model.fields,field_description:account_provision_deteriorate_receivable.field_account_move__provision_amount
+msgid "Cantidad de Provisión"
+msgstr ""
+
+#. module: account_provision_deteriorate_receivable
+#: model:ir.model.fields,field_description:account_provision_deteriorate_receivable.field_account_provision_deteriorate_receivable__create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: account_provision_deteriorate_receivable
+#: model:ir.model.fields,field_description:account_provision_deteriorate_receivable.field_account_provision_deteriorate_receivable__create_date
+msgid "Created on"
+msgstr "Creado en"
+
+#. module: account_provision_deteriorate_receivable
+#: code:addons/account_provision_deteriorate_receivable/wizard/account_provision_deteriorate_receivable.py:0
+#, python-format
+msgid "DETERIORATE RECEIVABLE"
+msgstr "DETERIORO DE CARTERA"
+
+#. module: account_provision_deteriorate_receivable
+#: code:addons/account_provision_deteriorate_receivable/wizard/account_provision_deteriorate_receivable.py:0
+#: code:addons/account_provision_deteriorate_receivable/wizard/account_provision_deteriorate_receivable.py:0
+#, python-format
+msgid "DETERIORATE RECEIVABLE (NIIF)"
+msgstr "DETERIORO DE CARTERA (NIIF)"
+
+#. module: account_provision_deteriorate_receivable
+#: code:addons/account_provision_deteriorate_receivable/models/account_move.py:0
+#: model:ir.model.fields,field_description:account_provision_deteriorate_receivable.field_account_move__deteriorate_amount
+#, python-format
+msgid "Deteriorate Amount"
+msgstr "Monto Deteriorado"
+
+#. module: account_provision_deteriorate_receivable
+#: code:addons/account_provision_deteriorate_receivable/models/account_move.py:0
+#: model:ir.model.fields,field_description:account_provision_deteriorate_receivable.field_account_move__deteriorate_date
+#, python-format
+msgid "Deteriorate Date"
+msgstr "Fecha de Deterioro"
+
+#. module: account_provision_deteriorate_receivable
+#: code:addons/account_provision_deteriorate_receivable/models/account_move.py:0
+#: model:ir.model.fields,field_description:account_provision_deteriorate_receivable.field_account_move__deteriorate_percentage
+#, python-format
+msgid "Deteriorate Percentage"
+msgstr "Porcentaje Deteriorado"
+
+#. module: account_provision_deteriorate_receivable
+#: model_terms:ir.ui.view,arch_db:account_provision_deteriorate_receivable.account_portfolio_report_view
+msgid "Deterioro cartera NIIF acumulada"
+msgstr ""
+
+#. module: account_provision_deteriorate_receivable
+#: model:ir.model.fields,field_description:account_provision_deteriorate_receivable.field_account_move__difference_niif_fiscal
+msgid "Difference NIFF-Fiscal"
+msgstr "Diferencia NIFF-Fiscal"
+
+#. module: account_provision_deteriorate_receivable
+#: model:ir.model.fields,field_description:account_provision_deteriorate_receivable.field_account_move__difference_niif_fiscal_value
+msgid "Difference NIIF Fiscal Value"
+msgstr "Diferencia valor en libros NIFF-Fiscal"
+
+#. module: account_provision_deteriorate_receivable
+#: model:ir.model.fields,field_description:account_provision_deteriorate_receivable.field_account_provision_deteriorate_receivable__display_name
+msgid "Display Name"
+msgstr "Nombre"
+
+#. module: account_provision_deteriorate_receivable
+#: code:addons/account_provision_deteriorate_receivable/wizard/account_provision_deteriorate_receivable.py:0
+#: model:ir.model.fields,field_description:account_provision_deteriorate_receivable.field_account_provision_deteriorate_receivable__execute_date
+#, python-format
+msgid "Execute Date"
+msgstr "Fecha de Ejecución"
+
+#. module: account_provision_deteriorate_receivable
+#: model_terms:ir.ui.view,arch_db:account_provision_deteriorate_receivable.account_provision_deteriorate_receivable_wizard_form
+msgid "Execute Process"
+msgstr "Ejecutar Proceso"
+
+#. module: account_provision_deteriorate_receivable
+#: code:addons/account_provision_deteriorate_receivable/wizard/account_provision_deteriorate_receivable.py:0
+#: model:ir.model.fields,field_description:account_provision_deteriorate_receivable.field_account_provision_deteriorate_receivable__execute_type
+#, python-format
+msgid "Execute Type"
+msgstr "Tipo de Ejecución"
+
+#. module: account_provision_deteriorate_receivable
+#: code:addons/account_provision_deteriorate_receivable/wizard/account_provision_deteriorate_receivable.py:0
+#: model:ir.model.fields,field_description:account_provision_deteriorate_receivable.field_account_provision_deteriorate_receivable__execute_type_niif
+#, python-format
+msgid "Execute Type NIIF"
+msgstr "Tipo de Ejecución NIIF"
+
+#. module: account_provision_deteriorate_receivable
+#: model:ir.model.fields,field_description:account_provision_deteriorate_receivable.field_account_move__expired_days
+msgid "Expired Days"
+msgstr "Dias de vencida"
+
+#. module: account_provision_deteriorate_receivable
+#: model:ir.model,name:account_provision_deteriorate_receivable.model_account_move
+msgid "Extended Account Move"
+msgstr "Extender Movimientos de cuenta"
+
+#. module: account_provision_deteriorate_receivable
+#: code:addons/account_provision_deteriorate_receivable/wizard/account_provision_deteriorate_receivable.py:0
+#: model:ir.model.fields.selection,name:account_provision_deteriorate_receivable.selection__account_provision_deteriorate_receivable__execute_type__fiscal
+#, python-format
+msgid "FISCAL"
+msgstr ""
+
+#. module: account_provision_deteriorate_receivable
+#: model:ir.model.fields,field_description:account_provision_deteriorate_receivable.field_account_provision_deteriorate_receivable__move_ids
+msgid "Facturas"
+msgstr ""
+
+#. module: account_provision_deteriorate_receivable
+#: model:ir.model.fields,field_description:account_provision_deteriorate_receivable.field_account_move__deteriorate_date
+msgid "Fecha de Deterioro"
+msgstr ""
+
+#. module: account_provision_deteriorate_receivable
+#: model:ir.model.fields,field_description:account_provision_deteriorate_receivable.field_account_provision_deteriorate_receivable__execute_date
+msgid "Fecha de Ejecución"
+msgstr ""
+
+#. module: account_provision_deteriorate_receivable
+#: model:ir.model.fields,field_description:account_provision_deteriorate_receivable.field_account_move__provision_date
+msgid "Fecha de Provisión"
+msgstr ""
+
+#. module: account_provision_deteriorate_receivable
+#: model_terms:ir.ui.view,arch_db:account_provision_deteriorate_receivable.account_provision_deteriorate_receivable_wizard_form
+msgid "Filters"
+msgstr "Filtros"
+
+#. module: account_provision_deteriorate_receivable
+#: model_terms:ir.ui.view,arch_db:account_provision_deteriorate_receivable.account_provision_deteriorate_receivable_wizard_form
+msgid "Flat File"
+msgstr "Archivo Plano"
+
+#. module: account_provision_deteriorate_receivable
+#: model:ir.model.fields,field_description:account_provision_deteriorate_receivable.field_account_provision_deteriorate_receivable__id
+msgid "ID"
+msgstr ""
+
+#. module: account_provision_deteriorate_receivable
+#: code:addons/account_provision_deteriorate_receivable/wizard/account_provision_deteriorate_receivable.py:0
+#: model:ir.model.fields.selection,name:account_provision_deteriorate_receivable.selection__account_provision_deteriorate_receivable__execute_type_niif__interest_rate
+#: model:ir.model,name:account_provision_deteriorate_receivable.model_account_move
+#, python-format
+msgid "Interest Rate"
+msgstr "Tasa de Interés"
+
+#. module: account_provision_deteriorate_receivable
+#: model:ir.model.fields,field_description:account_provision_deteriorate_receivable.field_account_move__invoice_id
+msgid "Invoice"
+msgstr "Factura"
+
+#. module: account_provision_deteriorate_receivable
+#: code:addons/account_provision_deteriorate_receivable/wizard/account_provision_deteriorate_receivable.py:0
+#: model:ir.model.fields,field_description:account_provision_deteriorate_receivable.field_account_provision_deteriorate_receivable__move_ids
+#: model_terms:ir.ui.view,arch_db:account_provision_deteriorate_receivable.account_provision_deteriorate_invoices_tree
+#, python-format
+msgid "Invoices"
+msgstr "Facturas"
+
+#. module: account_provision_deteriorate_receivable
+#: model_terms:ir.ui.view,arch_db:account_provision_deteriorate_receivable.account_provision_deteriorate_receivable_wizard_form
+msgid "Invoices List"
+msgstr "Lista de facturas"
+
+#. module: account_provision_deteriorate_receivable
+#: code:addons/account_provision_deteriorate_receivable/wizard/account_provision_deteriorate_receivable.py:0
+#: model:ir.model,name:account_provision_deteriorate_receivable.model_account_move
+#, python-format
+msgid "Journal Entries"
+msgstr "Asientos contables"
+
+#. module: account_provision_deteriorate_receivable
+#: model:ir.model.fields,field_description:account_provision_deteriorate_receivable.field_account_provision_deteriorate_receivable____last_update
+msgid "Last Modified on"
+msgstr "Última Modificación en"
+
+#. module: account_provision_deteriorate_receivable
+#: model:ir.model.fields,field_description:account_provision_deteriorate_receivable.field_account_provision_deteriorate_receivable__write_uid
+msgid "Last Updated by"
+msgstr "Última Actualización por"
+
+#. module: account_provision_deteriorate_receivable
+#: model:ir.model.fields,field_description:account_provision_deteriorate_receivable.field_account_provision_deteriorate_receivable__write_date
+msgid "Last Updated on"
+msgstr "Última Actualización en"
+
+#. module: account_provision_deteriorate_receivable
+#: model:ir.model.fields,field_description:account_provision_deteriorate_receivable.field_account_move__deteriorate_amount
+msgid "Monto Deteriorado"
+msgstr ""
+
+#. module: account_provision_deteriorate_receivable
+#: code:addons/account_provision_deteriorate_receivable/wizard/account_provision_deteriorate_receivable.py:0
+#: model:ir.model.fields.selection,name:account_provision_deteriorate_receivable.selection__account_provision_deteriorate_receivable__execute_type__niif
+#, python-format
+msgid "NIIF"
+msgstr ""
+
+#. module: account_provision_deteriorate_receivable
+#: code:addons/account_provision_deteriorate_receivable/wizard/account_provision_deteriorate_receivable.py:0
+#, python-format
+msgid "PROVISION RECEIVABLE"
+msgstr "PROVISIÓN DE CARTERA"
+
+#. module: account_provision_deteriorate_receivable
+#: code:addons/account_provision_deteriorate_receivable/wizard/account_provision_deteriorate_receivable.py:0
+#: code:addons/account_provision_deteriorate_receivable/wizard/account_provision_deteriorate_receivable.py:0
+#, python-format
+msgid "PROVISION RECEIVABLE (FISCAL)"
+msgstr "PROVISIÓN DE CARTERA (FISCAL)"
+
+#. module: account_provision_deteriorate_receivable
+#: model:ir.model.fields,field_description:account_provision_deteriorate_receivable.field_account_move__deteriorate_percentage
+msgid "Porcentaje Deteriorado"
+msgstr ""
+
+#. module: account_provision_deteriorate_receivable
+#: model_terms:ir.ui.view,arch_db:account_provision_deteriorate_receivable.account_portfolio_report_view
+msgid "Portfolio Report"
+msgstr "Informe de Cartera"
+
+#. module: account_provision_deteriorate_receivable
+#: model:ir.ui.menu,name:account_provision_deteriorate_receivable.main_menu_portfolio_report
+msgid "Portfolio report"
+msgstr "Informe de Cartera"
+
+#. module: account_provision_deteriorate_receivable
+#: model:ir.actions.act_window,name:account_provision_deteriorate_receivable.action_menu_portfolio_report
+msgid "Print Porfolio Report"
+msgstr "Generación Informe de Cartera"
+
+#. module: account_provision_deteriorate_receivable
+#: model:ir.ui.menu,name:account_provision_deteriorate_receivable.menu_portfolio_report
+msgid "Print portfolio report"
+msgstr "Generación Informe de Cartera"
+
+#. module: account_provision_deteriorate_receivable
+#: model:ir.model.fields,field_description:account_provision_deteriorate_receivable.field_account_move__provision_percentage
+msgid "Procentaje de Provisión"
+msgstr ""
+
+#. module: account_provision_deteriorate_receivable
+#: code:addons/account_provision_deteriorate_receivable/models/account_move.py:0
+#: model:ir.model.fields,field_description:account_provision_deteriorate_receivable.field_account_move__provision_amount
+#, python-format
+msgid "Provision Amount"
+msgstr "Cantidad de Provisión"
+
+#. module: account_provision_deteriorate_receivable
+#: code:addons/account_provision_deteriorate_receivable/models/account_move.py:0
+#: model:ir.model.fields,field_description:account_provision_deteriorate_receivable.field_account_move__provision_date
+#, python-format
+msgid "Provision Date"
+msgstr "Fecha de Provisión"
+
+#. module: account_provision_deteriorate_receivable
+#: model:ir.actions.act_window,name:account_provision_deteriorate_receivable.provision_deteriorate_receivable_wizard
+#: model:ir.ui.menu,name:account_provision_deteriorate_receivable.menu_provision_deteriorate_receivable
+msgid "Provision Deteriorate Receivable"
+msgstr "Provisión Deterioro de Cartera"
+
+#. module: account_provision_deteriorate_receivable
+#: code:addons/account_provision_deteriorate_receivable/models/account_move.py:0
+#: model:ir.model.fields,field_description:account_provision_deteriorate_receivable.field_account_move__provision_percentage
+#, python-format
+msgid "Provision Percentage"
+msgstr "Procentaje de Provisión"
+
+#. module: account_provision_deteriorate_receivable
+#: model_terms:ir.ui.view,arch_db:account_provision_deteriorate_receivable.account_portfolio_report_view
+msgid "Provisión cartera fiscal acumulada"
+msgstr ""
+
+#. module: account_provision_deteriorate_receivable
+#: model:ir.model.fields,field_description:account_provision_deteriorate_receivable.field_account_move__account_receivable_id
+msgid "Receivable Account"
+msgstr "Cuenta por cobrar"
+
+#. module: account_provision_deteriorate_receivable
+#: model:ir.model.fields.selection,name:account_provision_deteriorate_receivable.selection__account_provision_deteriorate_receivable__execute_type_niif__interest_rate
+msgid "Tasa de Interés"
+msgstr ""
+
+#. module: account_provision_deteriorate_receivable
+#: model:ir.model.fields,field_description:account_provision_deteriorate_receivable.field_account_provision_deteriorate_receivable__execute_type
+msgid "Tipo de Ejecución"
+msgstr ""
+
+#. module: account_provision_deteriorate_receivable
+#: model:ir.model.fields,field_description:account_provision_deteriorate_receivable.field_account_provision_deteriorate_receivable__execute_type_niif
+msgid "Tipo de Ejecución NIIF"
+msgstr ""
+
+#. module: account_provision_deteriorate_receivable
+#: model:ir.model.fields.selection,name:account_provision_deteriorate_receivable.selection__account_provision_deteriorate_receivable__execute_type__all
+msgid "Todos"
+msgstr ""
+
+#. module: account_provision_deteriorate_receivable
+#: model_terms:ir.ui.view,arch_db:account_provision_deteriorate_receivable.account_provision_deteriorate_receivable_wizard_form
+msgid "Select All"
+msgstr "Seleccionar todo"
+
+#. module: account_provision_deteriorate_receivable
+#: model_terms:ir.ui.view,arch_db:account_provision_deteriorate_receivable.account_provision_deteriorate_receivable_wizard_form
+msgid "Search invoices"
+msgstr "Buscar facturas"
+
+#. module: account_provision_deteriorate_receivable
+#: model:ir.model,name:account_provision_deteriorate_receivable.model_account_provision_deteriorate_receivable
+msgid "account.provision.deteriorate.receivable"
+msgstr ""
+
+#. module: account_provision_deteriorate_receivable
+#: code:addons/account_provision_deteriorate_receivable/wizard/account_provision_deteriorate_receivable.py:0
+#, python-format
+msgid ""
+"The process cannot be executed because there are "
+"draft entries related to provision or impairment."
+msgstr ""
+"No se puede ejecutar el proceso ya que hay  "
+"asientos en borrador relacionados con provisión o deterioro. "

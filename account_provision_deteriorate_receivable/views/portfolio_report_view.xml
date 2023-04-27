@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>     
+<odoo>
+    <data>
+
+       <record id="account_portfolio_report_view" model="ir.ui.view">
+           <field name="name">Print portfolio report</field>
+           <field name="model">account.move</field>
+           <field name="arch" type="xml">
+               <tree string="Portfolio Report" create="0" edit="0">
+                   <field name="name"/>
+                   <field name="account_receivable_id"/>
+                   <field name="invoice_date_due"/>
+                   <field name="amount_total"/>
+                   <field name="expired_days" />
+                   <field name="state" invisible="1"/>
+                   <field name="provision_amount" string="Provisión cartera fiscal acumulada"/>
+                   <field name="book_value_fiscal" />
+                   <field name="deteriorate_amount" string="Deterioro cartera NIIF acumulada"/>
+                   <field name="book_value_niif" />
+                   <field name="difference_niif_fiscal" />
+                   <field name="difference_niif_fiscal_value" />
+               </tree>
+           </field>
+       </record>
+
+       <record id="action_menu_portfolio_report" model="ir.actions.act_window">
+           <field name="name">Print Porfolio Report</field>
+           <field name="res_model">account.move</field>
+           <field name="view_mode">list</field>
+           <field name="view_id" ref="account_portfolio_report_view"/>
+           <field name="domain">['|',('deteriorate_date','!=',False),('provision_date','!=',False)]</field>
+       </record>
+
+       <menuitem
+        name="Portfolio report"
+        parent="account.menu_finance_reports"
+        id="main_menu_portfolio_report"
+        sequence="11"
+        action="account_provision_deteriorate_receivable.action_menu_portfolio_report"/>
+
+        <menuitem
+        name="Print portfolio report"
+        parent="main_menu_portfolio_report"
+        id="menu_portfolio_report"
+        action="account_provision_deteriorate_receivable.action_menu_portfolio_report"/>
+
+        
+    </data>
+</odoo>

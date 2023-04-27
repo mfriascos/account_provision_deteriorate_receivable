@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="account_move_provision_deteriorate_invoices_form" model="ir.ui.view">
+            <field name="name">account.move.provision.deteriorate.invoices.form</field>
+            <field name="model">account.move</field>
+            <field name="inherit_id" ref="account.view_move_form"/>
+            <field name="arch" type="xml">
+
+                <xpath expr="//field[@name='ref']" position="after">
+                    <field name="deteriorate_date" attrs="{'invisible': [('deteriorate_date', '=', False)]}"/>
+                    <field name="provision_date" attrs="{'invisible': [('provision_date', '=', False)]}"/>
+                    <field name="deteriorate_percentage" attrs="{'invisible': [('deteriorate_percentage', '=', 0)]}"/>
+                    <field name="provision_percentage" attrs="{'invisible': [('provision_percentage', '=', 0 )]}"/>
+                    <field name="deteriorate_amount" attrs="{'invisible': [('deteriorate_amount', '=', 0)]}"/>
+                    <field name="provision_amount" attrs="{'invisible': [('provision_amount', '=', 0)]}"/>
+                    <field name="invoice_id" attrs="{'invisible': [('invoice_id', '=', False)]}"/>
+                </xpath>
+            
+            </field>
+        </record>
+        
+    </data>
+</odoo>

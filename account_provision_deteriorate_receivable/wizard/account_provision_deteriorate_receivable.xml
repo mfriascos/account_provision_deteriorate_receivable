@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="account_provision_deteriorate_receivable_wizard_form" model="ir.ui.view">
+            <field name="name">account.provision.deteriorate.receivable.wizard.form</field>
+            <field name="model">account.provision.deteriorate.receivable</field>
+            <field name="arch" type="xml">
+                <form string="Flat File">
+                    <header>
+                        <button string="Search invoices" name="execute_filter" type="object" class="btn-primary"/>
+                        <button string="Execute Process" name="execute_process" type="object" class="btn-primary" attrs="{'invisible':[('move_ids','=',[])]}"/>
+                        <button string="Select All" name="select_all" type="object" class="btn-primary" attrs="{'invisible':[('move_ids','=',[])]}"/>
+                    </header>
+                    <sheet>
+                        <group name="Filters">
+                            <separator colspan="4" string="Filters"/>
+                            <group>
+                                <field name="execute_type"/>
+                                <field name="execute_date"/>
+                            </group>
+                            <group>
+                                <field name="execute_type_niif" attrs="{'invisible': [('execute_type', '!=', 'niif')], 'required': [('execute_type', '=', 'niif')]}" />
+                            </group>
+                        </group>
+                        <notebook colspan="4">
+                            <page name="invoices_list" string="Invoices List">
+                                <field name="move_ids" context="{'tree_view_ref': 'account_provision_deteriorate_receivable.account_provision_deteriorate_invoices_tree'}" attrs="{'readonly': False}" options="{'no_create': True}" />
+                            </page>
+                        </notebook>
+                    </sheet>
+
+                </form>
+            </field>
+        </record>
+
+        <record id="provision_deteriorate_receivable_wizard_action" model="ir.actions.act_window">
+            <field name="name">Provision Deteriorate Receivable</field>
+            <field name="res_model">account.provision.deteriorate.receivable</field>
+            <field name="view_mode">form</field>
+            <field name="view_id" ref="account_provision_deteriorate_receivable_wizard_form"/>
+            <field name="target">current</field>
+        </record>
+
+        <menuitem id="menu_provision_deteriorate_receivable" action="provision_deteriorate_receivable_wizard_action" name="Provision Deteriorate Receivable" sequence="4" parent="account.menu_finance_entries_actions"/>
+    </data>
+</odoo>

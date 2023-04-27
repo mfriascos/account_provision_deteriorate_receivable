@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="account_provision_deteriorate_invoices_tree" model="ir.ui.view">
+            <field name="name">account.provision.deteriorate.invoices.tree</field>
+            <field name="model">account.move</field>
+            <field eval="100" name="priority"/>
+            <field name="arch" type="xml">
+                <tree editable="bottom"  create="false" delete="false" string="Invoices">
+                    <field name="selected_deteriorate"  force_save="1"/>
+                    <field name="name" attrs="{'readonly': True}"/>
+                    <field name="invoice_partner_display_name" optional="hide"/>
+                    <field name="invoice_date" optional="hide"/>
+                    <field name="invoice_date_due"/>
+                    <field name="amount_untaxed_signed" optional="show"/>
+                    <field name="amount_total_signed" optional="show"/>
+                    <field name="amount_residual_signed" optional="show"/>
+                    <field name="state" optional="hide"/>
+                </tree>
+            </field>
+        </record>
+    </data>
+</odoo>
